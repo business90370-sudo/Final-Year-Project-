@@ -1,0 +1,63 @@
+[debug] [2026-02-01T15:05:25.435Z] ----------------------------------------------------------------------
+[debug] [2026-02-01T15:05:25.437Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-02-01T15:05:25.437Z] CLI Version:   15.5.1
+[debug] [2026-02-01T15:05:25.437Z] Platform:      win32
+[debug] [2026-02-01T15:05:25.437Z] Node Version:  v24.13.0
+[debug] [2026-02-01T15:05:25.437Z] Time:          Sun Feb 01 2026 20:35:25 GMT+0530 (India Standard Time)
+[debug] [2026-02-01T15:05:25.437Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\Final year project changes
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-02-01T15:05:30.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-01T15:05:30.969Z] > authorizing via signed-in user (business90370@gmail.com)
+[debug] [2026-02-01T15:05:30.970Z] Checked if tokens are valid: true, expires at: 1769961865323
+[debug] [2026-02-01T15:05:30.970Z] Checked if tokens are valid: true, expires at: 1769961865323
+[debug] [2026-02-01T15:05:30.971Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cyberscan-project-4b656 [none]
+[debug] [2026-02-01T15:05:31.498Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cyberscan-project-4b656 200
+[debug] [2026-02-01T15:05:31.498Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cyberscan-project-4b656 {"projectId":"cyberscan-project-4b656","projectNumber":"596607725636","displayName":"cyberscan-project","name":"projects/cyberscan-project-4b656","resources":{"hostingSite":"cyberscan-project-4b656"},"state":"ACTIVE","etag":"1_b29cbd8b-cdd4-4d53-af72-0e2823f3c745"}
+[info] i  Using project cyberscan-project-4b656 (cyberscan-project) . 
+[info] 
+=== Functions Setup
+[debug] [2026-02-01T15:05:31.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-01T15:05:31.507Z] > authorizing via signed-in user (business90370@gmail.com)
+[debug] [2026-02-01T15:05:31.507Z] [iam] checking project cyberscan-project-4b656 for permissions ["firebase.projects.get"]
+[debug] [2026-02-01T15:05:31.507Z] Checked if tokens are valid: true, expires at: 1769961865323
+[debug] [2026-02-01T15:05:31.507Z] Checked if tokens are valid: true, expires at: 1769961865323
+[debug] [2026-02-01T15:05:31.507Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cyberscan-project-4b656:testIamPermissions [none]
+[debug] [2026-02-01T15:05:31.507Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cyberscan-project-4b656:testIamPermissions  x-goog-user-project=cyberscan-project-4b656
+[debug] [2026-02-01T15:05:31.507Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cyberscan-project-4b656:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-02-01T15:05:32.794Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cyberscan-project-4b656:testIamPermissions 200
+[debug] [2026-02-01T15:05:32.795Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cyberscan-project-4b656:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
